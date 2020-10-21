@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Job Search</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+ 
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <div class="navbar-brand">
+              <a href="index.html"><h1><span>Job</span>Search</h1></a>
+            </div>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <div class="menu">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="about.html">About Us</a></li>
+                <li role="presentation"><a href="services.html" class="active">Services</a></li>
+                <li role="presentation"><a href="jobs.html">JObs</a></li>
+                <li role="presentation"><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>Services</li>
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="container">
+      <h3>Company Services</h3>
+      <hr>
+      <div class="col-md-6">
+        <img src="images/10.jpeg" class="img-responsive">
+        <p>We provide interactive online courses where you can learn a lot and prepare ahead for the next big thing in your career. Our online courses are designed in a way that you can be a no one to a professional programmer in just one month's time. People who will be teaching you are working professionals, with a minnimum experience of 5 to 20 years in the software industry. </p>
+      </div>
+
+      <div class="col-md-6">
+        <div class="media">
+          <ul>
+            <li>
+              <div class="media-left">
+                <i class="fa fa-apple"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Courses</h4>
+                <p>We have all the courses from Web development to Cloud technologies and statistical courses such as R and Python. Courses are 15 to 30 days long and will really help to fast track your learnings.</p>
+              </div>
+            </li>
+            <li>
+              <div class="media-left">
+                <i class="fa fa-linux"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Take it offline</h4>
+                <p>Once subscribed, you get full access to all the materials and can downlaod them and view them and practice whenever and wherever you like to.</p>
+              </div>
+            </li>
+            <li>
+              <div class="media-left">
+                <i class="fa fa-calendar-o"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Managing Courses</h4>
+                <p>We provide special focus on students coming from different backgrounds and make sure that they are catching up the pace and do not fall behind.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sub-services">
+    <div class="container">
+      <div class="col-md-6">
+        <div class="media">
+          <ul>
+            <li>
+              <div class="media-left">
+                <i class="fa fa-pencil"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Mock Interviews</h4>
+                <p>We have a range of services with mock interviews for students with speaking english and our technical courses will make you land in any job you wish.</p>
+              </div>
+            </li>
+            <li>
+              <div class="media-left">
+                <i class="fa fa-book"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Training</h4>
+                <p>Enough training to crack any interview. Our students are all spread across United States from California to Maine. Our track record proves what we are today</p>
+              </div>
+            </li>
+            <li>
+              <div class="media-left">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Care like @Home</h4>
+                <p>We know all the problems you go thorugh when living far from home and we make sure that outmost priority is being given to you and care enough that you can rely on us.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <img src="images/14.jpeg" class="img-responsive">
+        <p>We make sure that you get the desired job you want to land in. Even providing assitance to the students on how to crack the interview. </p>
+      </div>
+    </div>
+  </div>
+
+  <section id="contact-page">
+    <div class="container">
+      <div class="center">
+        <h2>Drop Your Message</h2>
+        <p>So that we can get back to you and help you out</p>
+      </div>
+      <div class="row contact-wrap">
+        <div class="status alert alert-success" style="display: none"></div>
+        <div class="col-md-6 col-md-offset-3">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button></div>
+          </form>
+        </div>
+      </div>
+  
+    </div>
+
+  </section>
+ 
+
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="social-icon">
+          <div class="col-md-4">
+            <ul class="social-network">
+              <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-4">
+          <div class="copyright">
+            &copy; Connected. All Rights Reserved.
+            <div class="credits">
+    
+              Designed by <a>VinVikRam</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="pull-right">
+        <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/functions.js"></script>
+
+</body>
+
+</html>
