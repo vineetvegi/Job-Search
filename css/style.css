@@ -1,14 +1,6 @@
-/*
-    Theme Name: Company
-    Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-
 /* ==== Google font ==== */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import url('font-awesome.css');
-/* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
 
 
@@ -92,9 +84,6 @@ a:hover {
    font-weight:600;
 }
 
-/*===========================
-  Menu and Navigation
-============================ */
 .navigation  {
 	background-color:#fff;
 	padding:0;
@@ -187,9 +176,6 @@ a:hover {
 	}
 }
 
-/*===========================
-  slider
-============================ */
 #main-slider {
 	margin-top:40px;
 }
@@ -422,7 +408,6 @@ a:hover {
   color:#000;
 }
 
-/* --- about us --- */
 .aboutus {
 	padding:50px;
 }
@@ -583,7 +568,6 @@ a:hover {
 	border-radius:5px;
 }
 
-/* --- footer --- */
 .footer {
 	background:#1BBD36;
 	padding:15px 22px;
@@ -645,7 +629,6 @@ ul.social-network li a {
 	text-shadow:none;
 }
 
-/* --- services --- */
 .services {
 	padding:50px;
 }
@@ -697,7 +680,6 @@ ul.social-network li a {
 	color:#1BBD36;
 }
 
-/* --- portfolio --- */
 
 #portfolio .center p {
 	margin-top:50px;
@@ -761,8 +743,6 @@ ul.social-network li a {
 	color: #1BBD36;
 }
 
-/* Start: Recommended Isotope styles */
-/**** Isotope Filtering ****/
 .isotope-item {
   z-index: 2;
 }
@@ -772,7 +752,7 @@ ul.social-network li a {
   z-index: 1;
 }
 
-/**** Isotope CSS3 transitions ****/
+
 .isotope,
 .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
@@ -798,7 +778,7 @@ ul.social-network li a {
   transition-property: transform, opacity;
 }
 
-/**** disabling Isotope CSS3 transitions ****/
+
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -809,8 +789,7 @@ ul.social-network li a {
   transition-duration: 0s;
 }
 
-/* End: Recommended Isotope styles */
-/* disable CSS transitions for containers with infinite scrolling*/
+
 .isotope.infinite-scrolling {
   -webkit-transition: none;
   -moz-transition: none;
@@ -820,13 +799,13 @@ ul.social-network li a {
 }
 
 
-/* --- Map --- */
+
 .map{
 	position:relative;
 	margin-bottom:40px;
 }
 
-/* google map */
+
 #google-map{
 	position:relative;
 	margin-top:10px;
@@ -834,7 +813,7 @@ ul.social-network li a {
     width: 100%;
 }
 
-/* --- blog --- */
+
 #blog {
 	margin-top:50px;
 }
@@ -1147,7 +1126,7 @@ ul.sidebar-gallery {
   display: inline-block;
 }
 
-/* --- contact --- */
+
 #contact-page{
   padding-top: 0;
   background:#fff;

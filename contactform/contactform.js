@@ -7,9 +7,9 @@ jQuery(document).ready(function($) {
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
-    f.children('input').each(function() { // run all inputs
+    f.children('input').each(function() {
 
-      var i = $(this); // current input
+      var i = $(this);
       var rule = i.attr('data-rule');
 
       if (rule !== undefined) {
